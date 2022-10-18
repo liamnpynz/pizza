@@ -1,0 +1,29 @@
+.inputs-area {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.input-sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.submit-button {
+  background-color: red;
+}
+
+.verify-button {
+  background-color: green;
+  color: white;
+  margin-top: 9px;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding: 10px 8px 8px 8px;
+  text-align: center;
+  height: 50px;
+  cursor: pointer;
+  min-width: 100px;
+}

@@ -1,0 +1,18 @@
+.socials-footer {
+    min-height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.final, .logos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.7em;
+    margin: auto 5%;
+}

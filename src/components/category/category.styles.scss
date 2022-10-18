@@ -1,0 +1,23 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 120px;
+  margin: 20px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.product-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.category-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+}

@@ -1,0 +1,42 @@
+.categories-header {
+  height: 45px;
+  background-color: white;
+  border-bottom: 1px dotten darkgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  @media screen and (max-width: 760px) {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+.category-button {
+  background-color: white;
+  border: 1px solid rgb(245, 245, 245);
+  box-sizing: border-box;
+  border-right: none;
+  margin: 0px;
+  border-top: none;
+  display: grid;
+  place-items: center;
+  padding: 0 15px;
+  font-size: 0.8em;
+  font-weight: bold;
+  height: 45px;
+
+  &:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+  }
+
+  &:last-child {
+    border-right: 1px solid rgb(245, 245, 245);
+  }
+}
+
+.gap {
+  height: 45px;
+  width: 18px;
+  background-color: white;
+}

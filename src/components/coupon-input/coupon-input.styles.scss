@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.coupon-container {
+    padding: 7px;
+  }
+  
+  .coupon-input {
+    border: 1px dashed darkgrey;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 8px;
+    color: grey;
+    width: 70%;
+  }
+  
+  .apply-coupon-button {
+    background-color: darkgreen;
+      color: white;
+      font-size: 0.8em;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      padding: 8px;
+      border: 0;
+  }
+  
+  .coupon-disclaimer {
+    font-size: 0.7em;
+    text-align: right;
+  }

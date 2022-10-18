@@ -1,0 +1,106 @@
+.item-card {
+  min-height: 420px;
+  max-width: 220px;
+@media screen and (max-width: 450px) {
+  width: 180px;
+}
+
+  background-color: white;
+  margin: 10px;
+  // padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+
+
+.bottom-area {
+  padding: 7px;
+}
+
+.dropdown-title {
+  font-size: 0.8em;
+  color: black;
+}
+
+.add-button {
+  background-color: darkgreen;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 8px;
+  width: 170px;
+
+  @media screen and (max-width: 450px) {
+    width: 150px;
+  }
+
+  &:active {
+    background-color: white;
+    color: darkgreen;
+  }
+
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.options-dropdowns {
+  background-color: white;
+  width: 180px;
+
+  @media screen and (max-width: 450px) {
+    width: 160px;
+  }
+  border-radius: 3px;
+  height: 30px;
+  border-color: lightgray;
+}
+
+.item-photo {
+  width: 100%;
+}
+
+.pizza-img {
+  width: 100%;
+  background-image: linear-gradient(45deg, #ffffff 0%, #eeeeee 100%);
+}
+
+.pizza-meta {
+  padding: 0px 5px;
+}
+
+.pizza-name {
+  h4 {
+    font-size: 0.95em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+}
+
+.pizza-kj {
+  color: grey;
+  font-size: 0.8em;
+}
+
+.pizza-desc {
+  font-size: 0.75em;
+  color: #3d3d3d;
+  p {
+    margin: 3px 0;
+  }
+}
+
+.view-more {
+  text-decoration: underline;
+  cursor: pointer;
+}
